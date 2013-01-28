@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'should.js' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.11
+4 verbose read json /Users/jweissman/Development/package.json
+5 verbose read json /Users/jweissman/Development/node_modules/coffee-script/package.json
+6 verbose read json /Users/jweissman/Development/node_modules/growl/package.json
+7 verbose read json /Users/jweissman/Development/node_modules/grunt-sample/package.json
+8 verbose read json /Users/jweissman/Development/node_modules/haml-coffee/package.json
+9 verbose read json /Users/jweissman/Development/node_modules/lint/package.json
+10 verbose read json /Users/jweissman/Development/node_modules/mocha/package.json
+11 verbose read json /Users/jweissman/Development/node_modules/mongodb/package.json
+12 verbose read json /Users/jweissman/Development/node_modules/node-jsmeter/package.json
+13 verbose read json /Users/jweissman/Development/node_modules/node-static/package.json
+14 verbose read json /Users/jweissman/Development/node_modules/nodeunit/package.json
+15 verbose read json /Users/jweissman/Development/node_modules/requirejs/package.json
+16 verbose read json /Users/jweissman/Development/node_modules/should/package.json
+17 verbose read json /Users/jweissman/Development/node_modules/sinon/package.json
+18 verbose read json /Users/jweissman/Development/node_modules/socket.io/package.json
+19 verbose read json /Users/jweissman/Development/node_modules/zappa/package.json
+20 verbose read json /Users/jweissman/Development/package.json
+21 verbose cache add [ 'should.js', null ]
+22 silly cache add name=undefined spec="should.js" args=["should.js",null]
+23 verbose parsed url { pathname: 'should.js', path: 'should.js', href: 'should.js' }
+24 silly lockFile 064e6351-should-js should.js
+25 verbose lock should.js /Users/jweissman/.npm/064e6351-should-js.lock
+26 silly lockFile 064e6351-should-js should.js
+27 verbose addNamed [ 'should.js', '' ]
+28 verbose addNamed [ null, '' ]
+29 silly lockFile 57a1fc12-should-js should.js@
+30 verbose lock should.js@ /Users/jweissman/.npm/57a1fc12-should-js.lock
+31 silly addNameRange { name: 'should.js', range: '', hasData: false }
+32 verbose url raw should.js
+33 verbose url resolving [ 'https://registry.npmjs.org/', './should.js' ]
+34 verbose url resolved https://registry.npmjs.org/should.js
+35 info trying registry request attempt 1 at 00:48:43
+36 http GET https://registry.npmjs.org/should.js
+37 http 404 https://registry.npmjs.org/should.js
+38 silly registry.get cb [ 404,
+38 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+38 silly registry.get     date: 'Mon, 28 Jan 2013 05:47:01 GMT',
+38 silly registry.get     'content-type': 'application/json',
+38 silly registry.get     'content-length': '52',
+38 silly registry.get     'cache-control': 'must-revalidate' } ]
+39 silly lockFile 57a1fc12-should-js should.js@
+40 error 404 'should.js' is not in the npm registry.
+40 error 404 You should bug the author to publish it
+40 error 404
+40 error 404 Maybe try 'npm search should'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, or http url, or git url.
+41 error System Darwin 12.2.1
+42 error command "node" "/usr/local/bin/npm" "install" "should.js"
+43 error cwd /Users/jweissman/Development/etc/katas/leonid
+44 error node -v v0.8.11
+45 error npm -v 1.1.62
+46 error code E404
+47 verbose exit [ 1, true ]

@@ -1,0 +1,30 @@
+
+<body>
+    <!-- the canvas tag required for the game element! -->
+    <canvas id="canvas" height="400" width="1000"></canvas>
+
+    <!-- Template area variable, associated with the below code blocks -->
+    {{> leaderboard}}
+</body>
+
+<!-- The template "leaderboard", will be placed at {{> leaderboard}} -->
+<template name="leaderboard">
+    <table width="100%">
+        <tr>
+            <td>Player</td>
+            <td>Squares</td>
+        </tr>
+        <!-- This loops through each player in the database and puts the player template in -->
+        {{#each players}}
+        {{> player}}
+        {{/each}}
+    </table>
+</template>
+
+<!-- the "player" template, placed at {{> player}} -->
+<template name="player">
+    <tr class="player">
+        <td class="name">{{name}}</td>
+        <td class="score">{{score}}</td>
+    </tr>
+</template>
